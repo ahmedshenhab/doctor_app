@@ -1,0 +1,31 @@
+!! ⚠️ PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING ⚠️ !!
+Dart Code extension: 3.104.0
+Flutter extension: 3.104.0 (not activated)
+
+App: Visual Studio Code
+App Host: desktop
+Version: win 1.97.2
+
+
+Logging Categories:
+    FlutterDaemon
+
+Fri Feb 21 2025 [00:35:44 GMT+0200 (Eastern European Standard Time)] Log file started
+[12:35:44 AM] [FlutterDaemon] [Info] Spawning C:\src\flutter\bin\flutter.bat with args ["daemon"]
+[12:35:44 AM] [FlutterDaemon] [Info] ..  in C:\src\flutter
+[12:35:44 AM] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\src\\flutter"}}
+[12:35:44 AM] [FlutterDaemon] [Info]     PID: 7816
+[12:35:46 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":12652}}]
+[12:35:46 AM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"device.enable"}]
+[12:35:46 AM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"emulator.getEmulators"}]
+[12:35:46 AM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\StudioProjects\\doctor_app"}}]
+[12:35:47 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Device daemon started."}}]
+[12:35:47 AM] [FlutterDaemon] [Info] <== [{"id":"1"}]
+[12:35:47 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"windows","name":"Windows","platform":"windows-x64","emulator":false,"category":"desktop","platformType":"windows","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Windows [Version 10.0.26100.3194]","isConnected":true,"connectionInterface":"attached","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[12:35:47 AM] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["web","android","ios","linux","macos","windows"],"platformTypes":{"web":{"isSupported":true},"android":{"isSupported":true},"ios":{"isSupported":true},"linux":{"isSupported":true},"macos":{"isSupported":true},"windows":{"isSupported":true},"fuchsia":{"isSupported":false,"reasons":[{"reasonText":"the Fuchsia feature is not enabled","fixText":"Run \"flutter config --enable-fuchsia\"","fixCode":"config"},{"reasonText":"the Fuchsia platform is not enabled for this project","fixText":"Run \"flutter create --platforms=fuchsia .\" in your application directory","fixCode":"create"}]},"custom":{"isSupported":false,"reasons":[{"reasonText":"the custom devices feature is not enabled","fixText":"Run \"flutter config --enable-custom-devices\"","fixCode":"config"}]},"windowsPreview":{"isSupported":false,"reasons":[{"reasonText":"the Preview Device feature is not enabled","fixText":"Run \"flutter config --enable-flutter-preview","fixCode":"config"}]}}}}]
+[12:35:47 AM] [FlutterDaemon] [Info] <== [{"id":"2","result":[]}]
+[12:35:47 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"061132509N000657","name":"Infinix X692","platform":"android-arm64","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android 10 (API 29)","isConnected":true,"connectionInterface":"attached","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[12:35:47 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 133.0.6943.99","isConnected":true,"connectionInterface":"attached","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[12:35:47 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Edge 133.0.3065.69","isConnected":true,"connectionInterface":"attached","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[12:36:13 AM] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.shutdown"}]
+Fri Feb 21 2025 [00:36:13 GMT+0200 (Eastern European Standard Time)] Log file ended
